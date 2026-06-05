@@ -6,7 +6,7 @@ Official code for our **NeurIPS 2025** paper.
 
 Test-time adaptation for accelerated multi-coil MRI reconstruction under an
 anatomy distribution shift (knee → brain), built on a U-Net backbone with an
-MR-INR (implicit neural representation) prompt.
+MR-INR (implicit neural representation) adaptation.
 
 This repository supports three self-supervised adaptation objectives
 (`datafidelity`, `n2n`, `ssdu`), each in two modes:
@@ -89,7 +89,7 @@ Released under the Apache License 2.0. See [LICENSE](LICENSE).
 
 This project builds on
 [MLI-lab/ttt_for_deep_learning_cs](https://github.com/MLI-lab/ttt_for_deep_learning_cs.git)
-and reuses its U-Net components. Please also cite the original work:
+and reuses its U-Net and VarNet components and pre-trained weights. Please also cite the original work:
 
 > M. Z. Darestani, J. Liu, and R. Heckel,
 > *Test-Time Training Can Close the Natural Distribution Shift Performance Gap
